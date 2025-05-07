@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_outer_classname = "ApplicationProto";
+
+package application;
+
+message RepeatedInt32 {
+  repeated int32 args = 1;
+}
+
+message SingleDouble {
+  double res = 1;
+}
+
+message TextChunk {
+  string text = 1;
+}
+
+message LettersFrequencyDictionary {
+  map<string, int32> frequencies = 1;
+}
+
+message Name {
+  string name = 1;
+}
+
+message Date {
+  int32 year = 1;
+  int32 month = 2;
+  int32 day = 3;
+}
+
+message Person {
+  string name = 1;
+  Date birthDate = 2;
+}
+
+message PersonList {
+  repeated Person people = 1;
+}
+
+message PersonAge {
+  string name = 1;
+  int32 age = 2;
+}
+
+message PersonAgeList {
+  repeated PersonAge people = 1;
+}
+
+message AgeCategories {
+  map<string, PersonAgeList> categories = 1;
+}
+
+service Application {
+  rpc Avg (RepeatedInt32) returns (SingleDouble);
+  rpc GetInfo (Name) returns (stream TextChunk);
+  rpc CountLetters(stream TextChunk) returns (LettersFrequencyDictionary);
+  rpc GroupByAgeGroup (PersonList) returns (AgeCategories);
+}

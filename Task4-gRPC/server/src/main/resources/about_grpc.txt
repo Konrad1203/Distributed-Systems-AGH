@@ -1,0 +1,12 @@
+Distributed Programming with GRPC
+
+gRPC is a modern, open source remote procedure call (RPC) framework that can run anywhere. It enables client and server applications to communicate transparently, and makes it easier to build connected systems.
+
+Why would I want to use gRPC? The main usage scenarios:
+
+- Low latency, highly scalable, distributed systems.
+- Developing mobile clients which are communicating to a cloud server.
+- Designing a new protocol that needs to be accurate, efficient and language independent.
+- Layered design to enable extension eg. authentication, load balancing, logging and monitoring etc.
+
+What does gRPC stand for? gRPC Remote Procedure Calls, of course!

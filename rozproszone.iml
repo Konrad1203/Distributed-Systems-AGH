@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Task1-Sockets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Task2-RestfulApi" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Task3-Ice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Task4-gRPC" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
