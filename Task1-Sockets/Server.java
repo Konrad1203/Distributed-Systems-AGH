@@ -1,4 +1,4 @@
-package z1;
+package z3;
 
 import java.io.BufferedReader;
 import java.io.IOException;

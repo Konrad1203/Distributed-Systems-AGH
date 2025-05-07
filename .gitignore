@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Restful services API keys ###
+/Task2-RestfulApi/api_keys.json
