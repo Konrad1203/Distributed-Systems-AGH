@@ -7,6 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Task2-RestfulApi" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Task3-Ice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Task4-gRPC" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Task5-Ray" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Task6-RabbitMQ" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Task7-Zookeeper" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
